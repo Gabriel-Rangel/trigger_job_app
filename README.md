@@ -9,6 +9,10 @@ A comprehensive Streamlit-based Databricks app for triggering and monitoring Dat
 - Deploy: databricks apps deploy slack-bot --source-code-path=/Workspace/Users/<username>/App/slack-bot 
 - Access the Apps URL and play with it.
 
+
+https://github.com/user-attachments/assets/b84f62e5-afd0-4f3b-bdd9-e6ba3e1e0b1f
+
+
 ## Features
 
 - **Job Discovery**: List and browse all available Databricks jobs in your workspace
