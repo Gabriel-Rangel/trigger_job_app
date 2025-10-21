@@ -5,8 +5,8 @@ A comprehensive Streamlit-based Databricks app for triggering and monitoring Dat
 ## How to get started
 - Install databricks cli and configure your workspace authentication see here: https://docs.databricks.com/en/dev-tools/cli/install.html
 - Create your app: databricks apps create trigger_job_app
-- Sync the files with the workspace: databricks sync --watch . /Workspace/Users/<username>/App/trigger_job_app (you can keep this command in a side window if you want to sync continously)
-- Deploy: databricks apps deploy trigger_job_app --source-code-path=/Workspace/Users/<username>/App/trigger_job_app 
+- Sync the files with the workspace: databricks sync --watch . /Workspace/Users/<$username>/App/trigger_job_app (you can keep this command in a side window if you want to sync continously)
+- Deploy: databricks apps deploy trigger_job_app --source-code-path=/Workspace/Users/<$username>/App/trigger_job_app 
 - Access the Apps URL and play with it.
 
 
